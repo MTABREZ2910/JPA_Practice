@@ -14,6 +14,19 @@ public class FootballJPA {
 	public Football saveDetails(Football football) {
 		return fr.save(football);
 	}
+	
+	public long count() {
+		return fr.count();
+	}
+	
+	public void delete(int id) {
+		fr.deleteById(id);
+	}
+	
+	
+
+	
+	
 	 
 
 
