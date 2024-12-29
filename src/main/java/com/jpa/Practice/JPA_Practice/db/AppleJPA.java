@@ -16,4 +16,15 @@ public class AppleJPA {
 		return ar.save(apple);
 	}
 
+	public void delete(int id) {
+		ar.deleteById(id);
+	}
+	
+	public void delete() {
+		ar.deleteAll();
+	}
+	
+	public long count() {
+		return ar.count();
+	}
 }

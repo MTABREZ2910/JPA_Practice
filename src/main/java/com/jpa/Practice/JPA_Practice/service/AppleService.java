@@ -15,5 +15,16 @@ public class AppleService {
 	public Apple saveDetails(Apple apple) {
 		return as.saveDetails(apple);
 	}
+	
+	public void delete(int id) {
+		as.delete(id);
+	}
+	
+	public void delete() {
+		as.delete();
+	}
+	public int count() {
+		return (int)as.count();
+	}
 
 }
